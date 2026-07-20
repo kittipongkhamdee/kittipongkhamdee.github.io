@@ -1,8 +1,16 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.kittipongkhamdee.twa",
-        "sha256_cert_fingerprints": ["83:B7:F6:07:D9:73:45:E7:9A:6F:ED:51:C1:5C:06:C7:78:A8:F4:FD:55:C1:AC:70:E9:D6:0A:39:65:D2:6F:26"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.kittipongkhamdee.twa",
+      "sha256_cert_fingerprints": [
+        "83:B7:F6:07:D9:73:45:E7:9A:6F:ED:51:C1:5C:06:C7:78:A8:F4:FD:55:C1:AC:70:E9:D6:0A:39:65:D2:6F:26",
+        "B1:55:F3:DC:20:23:3E:19:9C:92:D9:4F:44:9E:9C:BE:A5:F4:B6:F0:CE:3F:C6:B1:1F:1C:37:EA:8A:AE:D0:0D"
+      ]
+    }
+  }
+]
